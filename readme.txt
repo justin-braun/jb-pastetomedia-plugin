@@ -3,7 +3,7 @@ Tags: paste, clipboard, images, media library, screenshot
 Requires at least: 6.4
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.1.0
+Stable tag: 0.2.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -41,7 +41,7 @@ WordPress handles it as usual. The plugin only takes over when the clipboard hol
 
 == Changelog ==
 
-= Unreleased =
+= 0.2.0 =
 * Added: Automatic updates from GitHub Releases.
 * Changed: New installs show the review dialog when pasting by default.
 * Changed: Tested up to WordPress 7.1.

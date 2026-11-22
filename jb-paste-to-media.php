@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       JB Paste to Media
  * Description:       Paste images from the clipboard directly into posts and pages at the cursor, with templated filenames, alt text, captions and upload folders.
- * Version:           0.1.0
+ * Version:           0.2.0
  * Requires at least: 6.4
  * Requires PHP:      7.4
  * Author:            Justin Braun
@@ -17,7 +17,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'JBPTM_VERSION', '0.1.0' );
+define( 'JBPTM_VERSION', '0.2.0' );
 define( 'JBPTM_FILE', __FILE__ );
 define( 'JBPTM_DIR', plugin_dir_path( __FILE__ ) );
 define( 'JBPTM_URL', plugin_dir_url( __FILE__ ) );

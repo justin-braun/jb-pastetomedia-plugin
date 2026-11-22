@@ -7,6 +7,8 @@ and this project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-11-22
+
 ### Added
 - Updates from GitHub Releases with no setup. The plugin header's `Update URI` points at the public repo, so WordPress.org is never asked about this plugin. Supports "View details" release notes and WordPress auto-updates, and shows a failed check on the Plugins screen. Optional wp-config.php constants: `JBPTM_DISABLE_GITHUB_UPDATES` turns it off, and `JBPTM_GITHUB_TOKEN` sends a read-only token for higher GitHub rate limits.
 

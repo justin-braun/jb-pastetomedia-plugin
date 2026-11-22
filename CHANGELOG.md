@@ -7,6 +7,8 @@ and this project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-11-22
+
 ### Added
 - Paste images from the clipboard at the cursor in the block editor (Image block) and the Classic editor / Classic block.
 - Filename, alt text, title, caption and description templates with tokens (`{post_slug}`, `{date}`, `{time}`, and more).

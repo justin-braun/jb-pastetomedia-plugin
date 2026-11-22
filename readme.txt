@@ -38,7 +38,7 @@ WordPress handles it as usual. The plugin only takes over when the clipboard hol
 
 == Changelog ==
 
-= Unreleased =
+= 0.1.0 =
 * Added: Paste images from the clipboard at the cursor in the block and Classic editors.
 * Added: Filename, alt, title, caption, description and upload subfolder templates.
 * Added: Optional review dialog and JPEG/WebP conversion with a max width.

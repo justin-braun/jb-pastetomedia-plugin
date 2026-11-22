@@ -1,0 +1,68 @@
+/* JB Paste to Media: dialog and placeholder styles. */
+.jbptm-overlay {
+	position: fixed;
+	inset: 0;
+	z-index: 1000000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 16px;
+	background: rgba( 0, 0, 0, 0.5 );
+}
+
+.jbptm-dialog {
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 440px;
+	max-height: calc( 100vh - 32px );
+	overflow: auto;
+	padding: 20px 24px;
+	background: #fff;
+	color: #1e1e1e;
+	border-radius: 4px;
+	box-shadow: 0 10px 30px rgba( 0, 0, 0, 0.3 );
+	font-size: 13px;
+}
+
+.jbptm-dialog h2 {
+	margin: 0 0 12px;
+	font-size: 16px;
+}
+
+.jbptm-preview {
+	display: block;
+	max-width: 100%;
+	max-height: 180px;
+	margin: 0 auto 12px;
+	border: 1px solid #dcdcde;
+	background: repeating-conic-gradient( #f0f0f1 0% 25%, #fff 0% 50% ) 50% / 16px 16px;
+}
+
+.jbptm-field {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.jbptm-field span {
+	display: block;
+	margin-bottom: 4px;
+	font-weight: 600;
+}
+
+.jbptm-field input {
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.jbptm-actions {
+	display: flex;
+	justify-content: flex-end;
+	gap: 8px;
+	margin-top: 16px;
+}
+
+/* Placeholder inside TinyMCE while uploading. */
+img.jbptm-uploading {
+	opacity: 0.5;
+	outline: 2px dashed #2271b1;
+}

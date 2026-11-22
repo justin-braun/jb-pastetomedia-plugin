@@ -1,8 +1,7 @@
 === JB Paste to Media ===
-Contributors: jbraun
 Tags: paste, clipboard, images, media library, screenshot
 Requires at least: 6.4
-Tested up to: 6.9
+Tested up to: 7.1
 Requires PHP: 7.4
 Stable tag: 0.1.0
 License: GPLv2 or later
@@ -17,7 +16,7 @@ Copy a screenshot or an image and paste it into a post or page. JB Paste to Medi
 * Works in the block editor and in the Classic editor / Classic block.
 * Filename, alt text, title, caption and description templates with tokens such as `{post_slug}`, `{post_title}`, `{date}`, `{time}`, `{user}` and `{rand}`.
 * Saves pasted images to a subfolder of `wp-content/uploads`, for example `pasted/{year}/{month}`.
-* An optional dialog lets you review the name and text before each upload.
+* By default, a dialog lets you review the name and text before each upload. You can switch it off to upload straight away using the templates.
 * Optional conversion to JPEG or WebP in the browser, with a quality setting and a maximum width.
 * No external services, no tracking.
 
@@ -25,6 +24,10 @@ Copy a screenshot or an image and paste it into a post or page. JB Paste to Medi
 
 1. Upload the plugin zip via Plugins > Add New > Upload Plugin, then activate it.
 2. Configure it under Settings > Paste to Media.
+
+= Updates from GitHub =
+
+The plugin updates itself from its public GitHub Releases, with no setup. WordPress shows new versions on the Plugins and Updates screens, and the plugin's auto-update setting works as usual. To switch this off, add `define( 'JBPTM_DISABLE_GITHUB_UPDATES', true );` to wp-config.php.
 
 == Frequently Asked Questions ==
 
@@ -37,6 +40,11 @@ No. Only images pasted from the clipboard are affected.
 WordPress handles it as usual. The plugin only takes over when the clipboard holds just an image.
 
 == Changelog ==
+
+= Unreleased =
+* Added: Automatic updates from GitHub Releases.
+* Changed: New installs show the review dialog when pasting by default.
+* Changed: Tested up to WordPress 7.1.
 
 = 0.1.0 =
 * Added: Paste images from the clipboard at the cursor in the block and Classic editors.

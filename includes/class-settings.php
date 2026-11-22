@@ -40,7 +40,7 @@ class JBPTM_Settings {
 		return array(
 			'enable_block'   => 1,
 			'enable_classic' => 1,
-			'mode'           => 'silent',
+			'mode'           => 'prompt',
 			'image'          => array(
 				'filename'      => '{post_slug}-{date}-{time}',
 				'folder'        => 'pasted/{year}/{month}',

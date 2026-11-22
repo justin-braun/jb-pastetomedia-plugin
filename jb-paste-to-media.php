@@ -8,6 +8,7 @@
  * Author:            Justin Braun
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ * Update URI:        https://github.com/justin-braun/jb-pastetomedia-plugin
  * Text Domain:       jb-paste-to-media
  * Domain Path:       /languages
  *
@@ -24,6 +25,7 @@ define( 'JBPTM_URL', plugin_dir_url( __FILE__ ) );
 require_once JBPTM_DIR . 'includes/class-settings.php';
 require_once JBPTM_DIR . 'includes/class-upload.php';
 require_once JBPTM_DIR . 'includes/class-assets.php';
+require_once JBPTM_DIR . 'includes/class-updater.php';
 
 add_action(
 	'plugins_loaded',
@@ -31,6 +33,7 @@ add_action(
 		JBPTM_Settings::init();
 		JBPTM_Upload::init();
 		JBPTM_Assets::init();
+		JBPTM_Updater::init();
 	}
 );
 
